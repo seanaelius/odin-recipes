@@ -1,0 +1,13 @@
+body {
+    color: red;
+    background-color: rgb(205, 202, 202);
+
+}
+
+h1 {
+    border: 2px solid red;
+}
+
+a {
+    border: 2px solid red;
+}
