@@ -1,17 +1,24 @@
 body {
     color: red;
-    background-color: rgb(205, 202, 202);
+    background-color: white;
     display: block;
 }
 
 div {
-    border: 2px solid red;
+    vertical-align: top;
     text-align: center;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: rgb(198, 198, 198);
+    /* Play around with margin here*/
+    margin: 4em;
 }
 
 #title {
     text-align: center;
     margin: 8px auto;
+    display: block;
 }
 
 img#title {
@@ -21,18 +28,19 @@ img#title {
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    margin: auto;
+    width: 300px;
+    height: 300px;
+    margin: 32px auto;
 }
 
+a {
+    display: block;
+}
+
+
 /* Need to fix:
-positioning of photo
-positioning of text relative to photo
 font
-color (white sections with grey background)
-split recipe into 3 equal sections
 incorporate spans
 improve the introduction section
-remove red solid border
+remove black solid border
 */
